@@ -14,6 +14,8 @@
 		73CA6A1329EB4FD1001D2D7A /* TrallerFix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73CA6A1129EB4FD1001D2D7A /* TrallerFix.xcdatamodeld */; };
 		73CA6A1529EB4FD2001D2D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73CA6A1429EB4FD2001D2D7A /* Assets.xcassets */; };
 		73CA6A1829EB4FD2001D2D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73CA6A1629EB4FD2001D2D7A /* LaunchScreen.storyboard */; };
+		73CA6A2029EB5077001D2D7A /* trailers.json in Resources */ = {isa = PBXBuildFile; fileRef = 73CA6A1F29EB5077001D2D7A /* trailers.json */; };
+		73CA6A2229EB5920001D2D7A /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA6A2129EB5920001D2D7A /* TrailerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		73CA6A1429EB4FD2001D2D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73CA6A1729EB4FD2001D2D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73CA6A1929EB4FD2001D2D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73CA6A1F29EB5077001D2D7A /* trailers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = trailers.json; path = "../../../../Downloads/Arquivos TrailerFlix/trailers.json"; sourceTree = "<group>"; };
+		73CA6A2129EB5920001D2D7A /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,9 @@
 				73CA6A0829EB4FD1001D2D7A /* AppDelegate.swift */,
 				73CA6A0A29EB4FD1001D2D7A /* SceneDelegate.swift */,
 				73CA6A0C29EB4FD1001D2D7A /* ViewController.swift */,
+				73CA6A1F29EB5077001D2D7A /* trailers.json */,
 				73CA6A0E29EB4FD1001D2D7A /* Main.storyboard */,
+				73CA6A2129EB5920001D2D7A /* TrailerViewController.swift */,
 				73CA6A1429EB4FD2001D2D7A /* Assets.xcassets */,
 				73CA6A1629EB4FD2001D2D7A /* LaunchScreen.storyboard */,
 				73CA6A1929EB4FD2001D2D7A /* Info.plist */,
@@ -131,6 +137,7 @@
 				73CA6A1829EB4FD2001D2D7A /* LaunchScreen.storyboard in Resources */,
 				73CA6A1529EB4FD2001D2D7A /* Assets.xcassets in Resources */,
 				73CA6A1029EB4FD1001D2D7A /* Main.storyboard in Resources */,
+				73CA6A2029EB5077001D2D7A /* trailers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +151,7 @@
 				73CA6A1329EB4FD1001D2D7A /* TrallerFix.xcdatamodeld in Sources */,
 				73CA6A0D29EB4FD1001D2D7A /* ViewController.swift in Sources */,
 				73CA6A0929EB4FD1001D2D7A /* AppDelegate.swift in Sources */,
+				73CA6A2229EB5920001D2D7A /* TrailerViewController.swift in Sources */,
 				73CA6A0B29EB4FD1001D2D7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,8 +305,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +314,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abnerlima.TrallerFix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,8 +336,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +345,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abnerlima.TrallerFix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
