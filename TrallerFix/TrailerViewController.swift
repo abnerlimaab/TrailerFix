@@ -8,6 +8,8 @@
 import UIKit
 
 class TrailerViewController: UIViewController {
+    
+    var trailer: Trailer!
 
     @IBOutlet weak var ivTrailer: UIImageView!
     @IBOutlet weak var lbTitle: UILabel!

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73549CC129EC0345005539C2 /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73549CC029EC0345005539C2 /* Trailer.swift */; };
 		73CA6A0929EB4FD1001D2D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA6A0829EB4FD1001D2D7A /* AppDelegate.swift */; };
 		73CA6A0B29EB4FD1001D2D7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA6A0A29EB4FD1001D2D7A /* SceneDelegate.swift */; };
 		73CA6A0D29EB4FD1001D2D7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA6A0C29EB4FD1001D2D7A /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73549CC029EC0345005539C2 /* Trailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
 		73CA6A0529EB4FD1001D2D7A /* TrallerFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrallerFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73CA6A0829EB4FD1001D2D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73CA6A0A29EB4FD1001D2D7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				73CA6A0C29EB4FD1001D2D7A /* ViewController.swift */,
 				73CA6A1F29EB5077001D2D7A /* trailers.json */,
 				73CA6A0E29EB4FD1001D2D7A /* Main.storyboard */,
+				73549CC029EC0345005539C2 /* Trailer.swift */,
 				73CA6A2129EB5920001D2D7A /* TrailerViewController.swift */,
 				73CA6A1429EB4FD2001D2D7A /* Assets.xcassets */,
 				73CA6A1629EB4FD2001D2D7A /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73CA6A1329EB4FD1001D2D7A /* TrallerFix.xcdatamodeld in Sources */,
+				73549CC129EC0345005539C2 /* Trailer.swift in Sources */,
 				73CA6A0D29EB4FD1001D2D7A /* ViewController.swift in Sources */,
 				73CA6A0929EB4FD1001D2D7A /* AppDelegate.swift in Sources */,
 				73CA6A2229EB5920001D2D7A /* TrailerViewController.swift in Sources */,
